@@ -15,20 +15,20 @@ async def start_message(event):
         Var.START_MESSAGE,
         file=Var.START_MEDIA,
         buttons=[
-            [Button.inline("Hello Sir, i'm Alive", data="ok")],
+            [Button.inline("Hello , How Can I Help You ?", data="ok")],
             [
-                Button.url(
-                    "Source",
-                    url=REPO_LINK,
-                ),
-                Button.url("Support Group", url="t.me/FutureCodesChat"),
+               # Button.url(
+                 #   "Source",
+                  #  url=REPO_LINK,
+                #),
+                Button.url("Contact Support", url="https://t.me/pratikkkatariya"),
             ],
         ],
     )
 
 
 async def callback_query(event):
-    await event.answer("I'm Alive , No Need to click button..")
+    await event.answer("Hi👋")
 
 
 # For people, deploying multiple apps on one bot. (including "me")
