@@ -44,7 +44,7 @@ TRACK_WORDS = None
 
 
 CUSTOM_FORMAT = """
-
+{TWEET_TEXT}
 
 """
 
