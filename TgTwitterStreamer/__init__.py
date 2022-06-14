@@ -40,9 +40,7 @@ TRACK_WORDS = None
 
 
 CUSTOM_FORMAT = """
-🎊 Partner/VC :- <b><a href='{SENDER_PROFILE}'>{SENDER}</a></b> :
 
-🍿 {TWEET_TEXT}
 
 """
 
